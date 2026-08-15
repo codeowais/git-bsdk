@@ -7,5 +7,5 @@ def colorize_print(bruh):
 
 list2 = ['hello', 'konnichiwa', 'hallo', 'hola', 'bonjour', 'ciao']
 
-for i, greeting in enumerate(list2, start=1):
-    colorize_print(f"{i}. {greeting}")
+for i in list2:
+    colorize_print(i)
